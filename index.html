@@ -1,0 +1,153 @@
+<!DOCTYPE>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>최재원 포트폴리오</title>
+    </head>
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+        <!-- nav -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span>                         
+                    </button>
+                    <a class="navbar-brand" href="#myPage">Jaewon</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#skills">SKILLS</a></li>
+                        <li><a href="#works">WORKS</a></li>
+                        <li><a href="#contact">CONTACT</a></li>                    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- intro -->
+        <div class="container-fluid intro-bg text-center">
+            <h2 style="margin-top: 50px">Jaewon's portfolio</h2>
+            <img src="./images/jaewon.jpg" class="img-responsive img-circle" style="display:inline" alt="Boreumlee" width="250" height="250">
+            <h4 style="margin-top: 30px">안녕하세요 <strong >Front-end developer</strong>를 준비하고있는 최재원입니다.
+                <br>           
+        </div>
+
+        <!-- about -->
+        <div id="about" class="container-fluid about-bg text-center">
+            <h2>About Me</h2>
+            <div class="row">
+                <div class="container">
+                    <div class="col-sm-4">
+                        <img src="./images/about_jaewon.jpg" alt="jaewon" class="img-responsive img-rounded" >
+                    </div>
+                    <div class="col-sm-8 text-left">
+                        <h2 style="font-weight: 400; font-size: 24px">느리지만 꾸준하게 앞으로 가는 최재원입니다.</h2>
+                        <p>대학교에서 전공수업을 통해 HTML, CSS, Javascript 등을 배웠습니다.
+                            <br>졸업을 앞두고, 프론트엔드 개발자가 되기 위해 준비중입니다.
+                            <br>현재 CSS, ReactJS 공부를 하고 있습니다. 
+                            <br>사용자가 시각적, 기능적으로 편리하게 사용할 웹을 만들기 위해 노력하겠습니다.
+                            <br>일뿐만 아니라, 동료들과 업무적으로, 인간적으로 잘 어울릴 수 있는 개발자가 되겠습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- skills -->
+        <div id="skills" class="container-fluid skills-bg text-center">
+            <h2>skills</h2>
+            <br>
+            <div class="row slideanim">
+                <div class="col-sm-4">
+                    <i class="fab fa-html5 fa-7x" style="color: #E55125"></i>
+                    <h3>HTML</h3>
+                    <p>마크업, 페이지 콘텐트 구조화, 폼요소, 테이블 등 사용</p>
+                </div>
+                <div class="col-sm-4">
+                    <i class="fab fa-css3-alt fa-7x" style="color: #0A73B8"></i>
+                    <h3>CSS</h3>
+                    <p>배경 스타일링, 텍스트 스타일링 등</p>
+                </div>
+                <div class="col-sm-4">
+                    <i class="fab fa-js-square fa-7x" style="color: #E5A228"></i>    
+                    <h3>Javascript</h3>
+                    <p>네비게이션 구성, 탭메뉴 구현, 폼 유효성검사 등</p>
+                </div>
+            </div>
+                <br><br>
+            <div class="row slideanim">
+                <div class="col-sm-4">
+                    <i class="fab fa-react fa-7x" style="color: #5fa8d3"></i>
+                    <h3>ReactJS</h3>
+                    <p>Hook, 컴포넌트 상태관리, Routes 등</p>
+                </div>
+                <div class="col-sm-4">
+                    <i class="fab fa-git fa-7x"></i>
+                    <h3>Git</h3>
+                    <p>프로젝트 코드 관리, add, commit, pull, push, branch 사용</p>
+                </div>
+            </div> 
+        </div>
+
+        <!-- works -->
+        <div id="works" class="container-fluid works-bg text-center">
+            <h2>Works</h2>
+            <div class="row text-center slideanim">
+
+                <div class="col-sm-4">
+                <div class="thumbnail">
+                    <a href="#starbucks-demo" data-toggle="collapse">
+                        <img src="./images/starbucks.gif" alt="starbucks" >
+                        <p><strong>HTML, CSS, Javascript</strong></p>
+                        <p>스타벅스</p>
+                        <div id="starbucks-demo" class="collapse">
+                            <p><a href="https://github.com/jaewon1676/starbucks/" class="btn btn-default" role="button" target="_blank">demo</a>
+                            <a href="https://wonderful-hugle-8e3443.netlify.app/" class="btn btn-default" role="button" target="_blank">code</a></p>
+                            HTML, CSS, Javascript 학습을 위해 제작하였습니다.
+                        </div>
+                    </a>
+                </div>
+                </div>
+                <div class="col-sm-4">
+                <div class="thumbnail">
+                    <a href="#shoes-demo" data-toggle="collapse">
+                        <img src="./images/shoes_shop_demo.gif" alt="react_shoes_shop" >
+                        <p><strong>React</strong></p>
+                        <p>신발 쇼핑몰</p>
+                        <div id="shoes-demo" class="collapse">
+                           <p><a href="https://shoes1676-site.netlify.app/" class="btn btn-default" role="button" target="_blank">demo</a>
+                           <a href="https://github.com/jaewon1676/shoes-shop" class="btn btn-default" role="button" target="_blank">code</a></p>
+                           React 및 Redux 학습을 위해 제작하였습니다.
+                        </div>
+                    </a>
+                </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- contact -->
+        <div id="contact" class="container-fluid contact-bg text-center">
+            <h2 class="">CONTACT</h2>
+            <p><i class="fas fa-envelope"></i></span> ksy1676525@gmail.com</p>
+            <p><i class="fab fa-github"></i>Jaewon  <a href="https://github.com/jaewon1676" target="_blank" class="contact-link">github</a></p>
+        </div>
+        <!-- footer -->
+        <footer class="container-fluid footer-bg text-center">
+            <a href="#myPage" title="To Top">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+        </footer>       
+    </body>
+    
+    <script defer src="app.js"></script>
+</html>
