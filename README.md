@@ -8,9 +8,3 @@
 [portfolio](https://jaewon1676-portfolio.netlify.app/)
 <br>
 <br>
-
-## 기술스택
-- HTML5   
-- CSS  
-- Javascript 
-- jquery
